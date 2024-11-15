@@ -1,0 +1,56 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    &__text {
+        width: 40%;
+        padding: 20px;
+        color: #333;
+        
+        h2 {
+            font-size: 3.3rem;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        span {
+            display: block;
+            font-size: 2rem;
+            margin-top: 10px;
+            background: #333;
+            color: #fff;
+            padding: 10px 10px;
+            border-radius: 15px;
+        }
+    }
+
+    &__carousel {
+        width: 55%;
+        overflow: hidden; 
+        .carousel {
+            width: 100%;
+            border-radius: 20px;
+            overflow: hidden;
+
+            .carousel__img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+.heroo{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    background-color: #f2f2f2;
+}
