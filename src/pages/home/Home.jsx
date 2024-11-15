@@ -3,6 +3,7 @@ import Header from '../../components/header/Header'
 import Carousel from '../../components/hero/Hero'
 import Footer from '../../components/footer/Footer'
 import Katalog from '../../components/katalog/Katalog'
+import Product from '../../components/product/Product'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Header/>
       <Carousel/>
       <Katalog/>
+      <Product/>
       <Footer/>
 
     </>

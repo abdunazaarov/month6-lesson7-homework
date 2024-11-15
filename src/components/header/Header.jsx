@@ -19,6 +19,7 @@ const Header = () => {
           <li className="topBar__item"><Link to="/garant">Гарантии</Link></li>
           <li className="topBar__item"><Link to="/contact">Контакты</Link></li>
           <li className="topBar__item"><Link to="/blog">Блог</Link></li>
+          <li className="topBar__item"><Link to="/products">товар</Link></li>
         </ul>
         <ul className="topBar__list">
           <li className="topBar__item">8 (800) 890-46-56</li>
